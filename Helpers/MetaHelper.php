@@ -88,7 +88,7 @@ class MetaHelper
             }
         }
 
-        $data[] = $site ? (string)$site : ParamsHelper::get('core.core.sitename');
+        $data[] = $site ? (string)$site : ParamsHelper::get('meta.meta.sitename');
         return implode(' - ', $data);
     }
 
